@@ -11,7 +11,7 @@ function world:newWorld(list, w, h)
     local num=list[i]
     
     if num==1 then
-      table.insert(w.objs, block:newBlock(x*8, y*8))
+      table.insert(w.objs, block:newBlock(x*800, y*800))
     end
     
     x=x+1
