@@ -1,1 +1,1 @@
-dofile("main.lua")
+dofile("game/main.lua")
