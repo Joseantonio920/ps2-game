@@ -1,6 +1,6 @@
 local world={}
 
-local block=require "game/scr/block.lua"
+local block=require "scr/block.lua"
 function world:newWorld(list, w, h)
   local w={}
   
@@ -11,7 +11,7 @@ function world:newWorld(list, w, h)
     local num=list[i]
     
     if num==1 then
-      table.insert(w.objs, block:newBlock(x*800, y*800))
+      table.insert(w.objs, block:newBlock(x*80, y*80))
     end
     
     x=x+1

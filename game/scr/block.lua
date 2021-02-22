@@ -4,8 +4,8 @@ function block:newBlock(x, y)
   local b={
     x=x,
     y=y,
-    w=800,
-    h=800
+    w=80,
+    h=80
   }
   
   function b:draw()
